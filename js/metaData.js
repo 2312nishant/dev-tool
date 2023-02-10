@@ -3,7 +3,7 @@ var metaData = (function () {
     "use strict";
     var m_documentTypesList;
     var m_documentType;
-    var API_URL = 'https://frontrolapp.azurewebsites.net/api/';
+    var API_URL = 'https://dashboard.frontrol.com/api/';
     var arrayEventHandler = ['documentName'];
     var jsonMetaData = ["_DBMETADATA", "_JOIMETADATA", "_QUERY", "_AUTHORIZATION", "_CUSTOMIZATION"];
     var testingJsonMetadata = ["_TESTDATA_CREATE"];
