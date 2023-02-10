@@ -86,7 +86,7 @@ var metaData = (function () {
     }
     function login(userName, password, callback) {
         if (userName && password) {
-            fetch(`https://frontrolapp.azurewebsites.net/api/users/login`, {
+            fetch(`https://dashboard.frontrol.com/api/users/login`, {
                 method: 'post',
                 headers: {
                     "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
